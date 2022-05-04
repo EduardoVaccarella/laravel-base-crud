@@ -31,6 +31,14 @@
                     €
                 </span>
             </div>
+            <br>
+            <div class="btnWrapper">
+                <a href="{{ route('comics.edit', $comic->id) }}">
+                    <span id="editBtn">
+                        Edita
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
 
