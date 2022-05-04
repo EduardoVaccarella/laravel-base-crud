@@ -189,6 +189,7 @@
   border: 0;
   display: flex;
   justify-content: end;
+  align-items: center;
   width: 65%;
 }
 
@@ -199,6 +200,7 @@
 .show-wrapper .description-wrapper .btnWrapper #editBtn {
   color: white;
   font-size: smaller;
+  margin-left: 5px;
   padding: 5px 10px;
   border: 1px solid black;
   background-color: rgba(0, 182, 97, 0.493);
@@ -273,6 +275,7 @@
   width: auto;
   color: white;
   margin-top: 25px;
+  padding: 5px 10px;
 }
 
 .button {
