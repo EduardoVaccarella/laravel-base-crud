@@ -31,6 +31,16 @@
                 <input type="text" name="price" value="{{ $comic->price }}">
         
                 <input type="submit" value="Edita" id="buttonSbmt" class="button">
+
+                @if ($errors->any())
+                    <div class="alert">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </form>
         </div>
     </div>

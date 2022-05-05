@@ -54,3 +54,19 @@
     background-color: rgba(0, 182, 97, 0.493);
     display: inline-block;
 }
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        list-style-type: none;
+        font-size: 11px;
+        color: rgba(0, 0, 0, 0.500);
+
+        li {
+            margin-top: 5px;
+        }
+    }
+}
